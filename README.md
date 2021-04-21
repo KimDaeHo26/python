@@ -1,6 +1,8 @@
 # python
 
 ## python 3.8 버전 이용
+## jemu.csv 파일 : 재무비율계산 용 재무제표 샘플
+
 
 *    KDHcalcClass.calc(upche, fmul, dateC, dateB, dateA, option: str = 'y')
 *    """ 산식(&00-0001C&+...+&00-0005C&)을 금액으로 치환해서 계산 결과를 리턴해줌
