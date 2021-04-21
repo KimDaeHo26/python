@@ -40,8 +40,9 @@ class KDHcalcClass:
             bogosu = acc[1:3]
             hang = acc[4:8]
             klgubn = acc[8:9]
+            klgubn = klgubn.upper()
 
-            if klgubn == 'C':
+            if klgubn.upper() == 'C':
                 selDate = dateC
             elif klgubn == 'B':
                 selDate = dateB
