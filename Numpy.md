@@ -1,15 +1,10 @@
 # 아래 링크를 통해 주피터 노트북 뷰어(nbviewer.jupyter.org)로 보거나 구글 코랩(colab.research.google.com)에서 실행할 수 있음
 
-<table class="tfo-notebook-buttons" align="left" >
-  <td bgcolor="yellow">
+<pre>
     <a target="_blank" href="https://nbviewer.jupyter.org/github/KimDaeHo26/python/blob/main/Numpy.ipynb"><img src="https://jupyter.org/assets/main-logo.svg" width="28" />주피터 노트북 뷰어로 보기</a>
-
-  </td>
-  <td width = 30 td bgcolor="white">&nbsp;</td>
-  <td td bgcolor="yellow">
+<br>
     <a target="_blank" href="https://colab.research.google.com/github/KimDaeHo26/python/blob/main/Numpy.ipynb"><img src="https://www.tensorflow.org/images/colab_logo_32px.png" />구글 코랩(Colab)에서 실행하기</a>
-  </td>
-</table>
+</pre>
 
 ## numpy  인공지능에서 주로 사용되는 벡터 및 행렬 연산에서 매우 편리한 기능을 제공
 
