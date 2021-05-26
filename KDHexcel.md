@@ -114,7 +114,13 @@ print(df.head())
     
 
 ## 엑셀 파일 생성 프로그램 ( KDHexcel )
-
+<pre>
+코랩에서는 실행이 안됨 : 
+  이유) import win32com.client 설치가 안됨 윈도우 환경이 아님
+  
+주피터 노트북에서는 "그래프넣기" 함수 실행이 안됨 : 
+  이유) QApplication.clipboard 사용이 불가
+</pre>
 
 ```python
 from KDHexcel import KDHexcel
