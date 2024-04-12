@@ -1,0 +1,19 @@
+from datetime import datetime
+from functools import wraps
+
+
+def log(func):
+    @wraps(func)
+    def _wrapper(*args, **kwargs):
+        time_s = datetime.now()
+        print(f'▶ 시작 ({time_s.strftime("%Y-%M-%D %H:%M:%S")})')
+        result = func(*args, **kwargs)
+        time_e = datetime.now()
+        print(f'▶ 종료 ({time_e.strftime("%Y-%M-%D %H:%M:%S")})')
+        print(f'▶ 경과 : {str(time_e-time_s).split(".")[0]}')
+        return result
+    return _wrapper
+
+@log
+def a():
+    print("kkk")
